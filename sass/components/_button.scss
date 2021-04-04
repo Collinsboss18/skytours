@@ -5,9 +5,9 @@
 		text-decoration: none;
 		display: inline-block;
 		border-radius: 10rem;
-		transition: all 0.2s;
 		position: relative;
 		font-size: $default-size;
+		transition: all 0.2s;
 	}
 
 	&::after {

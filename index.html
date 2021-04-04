@@ -10,7 +10,8 @@
 		<link rel="stylesheet" href="sass/main.css" />
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-		<title>Natours | Exciting tours for adventurous people</title>
+		<title>Skytours | Exciting tours for adventurous people</title>
+		<!-- Using fluid grid layout ie. using % rather than px -->
 	</head>
 	<body>
 		<header class="header">
@@ -178,6 +179,13 @@
 				</div>
 			</section>
 			<section class="section-stories">
+				<div class="bg-video">
+					<video class="bg-video__content" autoplay muted loop>
+						<source src="img/video.mp4" type="video/mp4" />
+						<source src="img/video.webm" type="video/webm" />
+						Your browser is not supported!
+					</video>
+				</div>
 				<div class="center-text margin-b-big">
 					<h1 class="heading-secondary">We make people genuinely happy</h1>
 				</div>
@@ -185,6 +193,7 @@
 					<div class="story">
 						<figure class="story__shape margin-b-small">
 							<img src="img/nat-8.jpg" alt="Preson only tour" class="story__img" />
+							<figcaption class="story__caption">Mary Smith</figcaption>
 						</figure>
 						<div class="story__text">
 							<h3 class="heading-tertiary">I had the best week ever with my family</h3>
@@ -195,6 +204,25 @@
 							</p>
 						</div>
 					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape margin-b-small">
+							<img src="img/nat-8.jpg" alt="Preson only tour" class="story__img" />
+							<figcaption class="story__caption">Jack Wilson</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary">Well my life is completely different now</h3>
+							<p>
+								Unde atque, quod laborum beatae minus quos ut tempora tempore ducimus aliquid. It amet consectetur adipisicing elit. Quia eum
+								qui, tenetur possimus magnam similique voluptatem architecto cum molestiae laudantium repellat sit reiciendis nostrum error. k
+								nsectetur adipisicing elit. Deserunt modi tempora distinctio?
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="center-text margin-b-huge">
+					<a href="#" class="btn-text">Read all stories &rarr;</a>
 				</div>
 			</section>
 		</main>
