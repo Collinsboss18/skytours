@@ -76,10 +76,8 @@
 			display: block;
 			border-radius: 50%;
 			position: absolute;
-			top: 50%;
-			left: 50%;
+			@include centerHV;
 			background-color: $color-primary;
-			transform: translate(-50%, -50%);
 			opacity: 0;
 			transition: all 0.2;
 		}
