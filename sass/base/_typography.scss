@@ -4,7 +4,6 @@ body {
 	font-size: $default-size;
 	line-height: 1.7;
 	color: $color-gray;
-	padding: 3rem;
 	position: relative;
 }
 
@@ -25,6 +24,11 @@ body {
 		animation-delay: 0.5s;
 		animation-timing-function: ease-out;
 		animation-iteration-count: 1;
+
+		@include respond(phone) {
+			letter-spacing: 1rem;
+			font-size: 5rem;
+		}
 	}
 
 	&--sub {
@@ -38,6 +42,10 @@ body {
 		animation-delay: 0.5s;
 		animation-timing-function: ease-out;
 		animation-iteration-count: 1;
+
+		@include respond(phone) {
+			letter-spacing: 0.5rem;
+		}
 	}
 }
 
@@ -52,6 +60,14 @@ body {
 	color: transparent;
 	letter-spacing: 0.2rem;
 	transition: all 0.2s;
+
+	@include respond(tab-port) {
+		font-size: 3rem;
+	}
+
+	@include respond(phone) {
+		font-size: 2.5rem;
+	}
 
 	&:hover {
 		// transform: skewY(0) skewX(15deg) scale(1.1);

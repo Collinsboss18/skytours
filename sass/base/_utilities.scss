@@ -4,6 +4,10 @@
 
 .margin-b-big {
 	margin-bottom: 8rem !important;
+
+	@include respond(tab-port) {
+		margin-bottom: 5rem !important;
+	}
 }
 
 .margin-t-huge {
@@ -11,10 +15,18 @@
 }
 
 .margin-t-big {
-	margin-bottom: 8rem !important;
+	margin-top: 8rem !important;
+
+	@include respond(tab-port) {
+		margin-top: 5rem !important;
+	}
 }
 .margin-b-medium {
 	margin-bottom: 4rem !important;
+
+	@include respond(tab-port) {
+		margin-bottom: 3rem !important;
+	}
 }
 
 .margin-b-small {
