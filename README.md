@@ -2,9 +2,9 @@
 
 #### A tours app using CSS, SASS and HTML
 
-** DEMO [SKYTOURS](https://collins-skytours.netlify.app/) **
+**DEMO [SKYTOURS](https://collins-skytours.netlify.app/)**
 
-** Technologies **
+**Technologies**
 
 -   HTML
 -   CSS
