@@ -4,6 +4,12 @@
 
 ** DEMO [SKYTOURS](https://collins-skytours.netlify.app/) **
 
+** Technologies **
+
+-   HTML
+-   CSS
+-   SCSS
+
 > App responsive demo
 > 1
 
