@@ -1340,6 +1340,18 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 37.5em), only screen and (max-width: 118.75em) {
+  .header__text-box {
+    top: 5%;
+  }
+}
+
+@media only screen and (max-width: 118.75em) {
+  .header__text-box {
+    top: 6%;
+  }
+}
+
 .row {
   max-width: 104rem;
   background-color: transparent;

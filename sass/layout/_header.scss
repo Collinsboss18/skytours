@@ -34,5 +34,13 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;
+
+		@media only screen and (max-width: 37.5em), only screen and (max-width: 118.75em) {
+			top: 5%;
+		}
+
+		@media only screen and (max-width: 118.75em) {
+			top: 6%;
+		}
 	}
 }
